@@ -12,7 +12,7 @@ def newDeployment(jobname,ip,appname)
 }
 def runselenium(jobname)
 {
-  sh "java -jar /home/ubuntu/.jenkins/workspace/${jobname}/jenkins.war"
+  sh "java -jar /home/ubuntu/.jenkins/workspace/${jobname}/testing.jar"
 }
 
 
