@@ -1,8 +1,8 @@
-dif gitDownload(repo)
+def gitDownload(repo)
 {
   git "https://github.com/AkashB1993/${repo}.git"
 }
-dif newBuild()
+def newBuild()
 {
   sh 'mvn package'
 }
